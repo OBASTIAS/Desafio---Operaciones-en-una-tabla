@@ -79,7 +79,7 @@ INSERT INTO comentarios(created_at, hour_time, contents, post_id) VALUES ('2021/
 \echo '3. Crear un nuevo post para "Margarita".'
 
 
-INSERT INTO posts(username, created_at, contents, description, title) VALUES ('Margarita','2021/07/23','Hola mundo Carlos, y vengo a flotar, bueno chao','soy un post de Margarita','Actress');
+INSERT INTO posts(username, created_at, contents, description, title) VALUES ('Margarita','2021/07/23','Hola mundo Margarita, y vengo a flotar, bueno chao','soy un post de Margarita','Actress');
 
 \echo '4. Ingresar 5 comentarios para el post de Margarita.'
 INSERT INTO comentarios(created_at, hour_time, contents, post_id) VALUES ('2021/07/23', '09:00:00','Hola mundo soy el primer comentario de Margarita',7);
